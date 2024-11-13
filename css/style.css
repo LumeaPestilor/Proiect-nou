@@ -1,0 +1,83 @@
+:root{
+    --color1:#05b1b1;
+    --color2:#52339a;
+
+}
+header,section{
+    padding: 20px 0;
+}
+footer {
+    
+    padding: 20px 0; 
+}
+header{
+    padding: 20px 0;
+}
+header,footer{
+    background:  linear-gradient(to right,  var(--color1) 0%,var(--color2) 100%);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Previne derularea orizontală */
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* Asigură raportul corect al dimensiunilor */
+}
+.margine {
+    height: 90vh;
+    background-color: black; /* Fundal negru */
+    overflow: hidden; 
+    
+}
+
+
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+ 
+  background-size: 150%, 150%; /* Asigură dimensiunea corectă */
+  
+}
+
+
+footer .container {
+    text-align: right; 
+}
+li{
+    color:white;
+  }
+  ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+    cursor:pointer;
+}
+p{
+    color:white;
+    
+}
+ .btn-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.margine1{
+    height: 90vh;
+}
+.carousel-item img {
+    width: 100%;            
+    height: 90vh;           
+    object-fit: cover;
+    max-width: 100%;       
+}
+
